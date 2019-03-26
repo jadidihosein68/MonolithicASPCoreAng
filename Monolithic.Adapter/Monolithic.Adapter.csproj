@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Http">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.http\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interface\Utilities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monolithic.Model\Monolithic.Model.csproj" />
+  </ItemGroup>
+
+</Project>

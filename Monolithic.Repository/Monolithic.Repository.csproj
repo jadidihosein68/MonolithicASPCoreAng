@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monolithic.Adapter\Monolithic.Adapter.csproj" />
+    <ProjectReference Include="..\Monolithic.DAL\Monolithic.DAL.csproj" />
+    <ProjectReference Include="..\Monolithic.Model\Monolithic.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Concreate\" />
+    <Folder Include="Interface\" />
+  </ItemGroup>
+
+</Project>

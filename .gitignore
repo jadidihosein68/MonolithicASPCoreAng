@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/Monolithic.Adapter/bin/Debug/netcoreapp2.1
+/Monolithic.Adapter/obj
+/Monolithic.BAL/bin/Debug/netcoreapp2.1
+/Monolithic.BAL/obj/Debug/netcoreapp2.1
+/Monolithic.BAL/obj
+/Monolithic.DAL/bin/Debug/netcoreapp2.1
+/Monolithic.DAL/obj
+/Monolithic.Model/bin/Debug/netcoreapp2.1
+/Monolithic.Model/obj
+/Monolithic.Repository/bin/Debug/netcoreapp2.1
+/Monolithic.Repository/obj
+/.vs

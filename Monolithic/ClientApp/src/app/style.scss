@@ -1,0 +1,27 @@
+@import "spinner";
+@import "utils";
+@import "rtl";
+@import "responsive";
+
+@media print {
+    .breadcrumb {
+        display: none !important;
+    }
+}
+
+
+.btn{
+    border-radius:0px !important;
+}
+
+.btn-Carrot{
+    color: #fff;
+    background-color: #e67e22;
+    border-color: #d35400;
+
+}
+.btn-Carrot:hover{
+    color: #fff;
+    background-color: #d35400;
+    border-color: #e67e22;
+}

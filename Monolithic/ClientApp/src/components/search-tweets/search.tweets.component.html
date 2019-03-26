@@ -1,0 +1,33 @@
+<Datatable-Twitter></Datatable-Twitter>
+
+<div class="row">
+  <div class="col col-sm-6">
+    <div>
+      <p></p>
+      <sal-modal btnlabel="Add User">
+        <div class="header">
+          <h4 class="modal-title">Extract Twitts <i class="fab fa fa-twitter"></i></h4>
+        </div>
+        <div class="body">
+          <div class="row">
+            <div class="col col-sm-3">
+              <img class="img-fluid mx-auto d-block" [src]="'assets/images/Mard2.png'" alt="Random first slide" width="100%">
+            </div>
+            <div class="col col-sm-9">
+              <p>Please input the user Twitter ID's to extract</p>
+
+              <div class="">
+                <div class="form-group input-group">
+                  <input type="text" [(ngModel)]="TweetID" class="form-control">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <button type="button" class="btn btn-info" (click)="getTweet()">Search</button>
+        </div>
+      </sal-modal>
+    </div>
+  </div>
+</div>
