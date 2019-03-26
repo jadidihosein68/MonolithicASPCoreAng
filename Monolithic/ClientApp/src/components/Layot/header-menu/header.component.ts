@@ -41,5 +41,4 @@ export class HeaderComponent implements OnInit {
         dom.classList.toggle('rtl');
     }
 
-
 }

@@ -1,4 +1,4 @@
-export const lineChartOptions : any = {
+export const lineChartOptions: any = {
     responsive: true
     ,
     scales: {
@@ -16,10 +16,9 @@ export const lineChartOptions : any = {
             }
         }]
     }
-    ,pan: {
+    , pan: {
         // Boolean to enable panning
         enabled: true,
-
         // Panning directions. Remove the appropriate direction to disable 
         // Eg. 'y' would only allow panning in the y direction
         mode: 'xy'
@@ -34,12 +33,9 @@ export const lineChartOptions : any = {
         // Eg. 'y' would only allow zooming in the y direction
         mode: 'xy',
     }
-    ,elements: {
-        point:{
+    , elements: {
+        point: {
             radius: 0
         }
     }
 };
-
-
-
