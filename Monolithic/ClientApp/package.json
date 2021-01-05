@@ -30,7 +30,7 @@
     "angular-font-awesome": "^3.1.2",
     "angular5-csv": "^0.2.10",
     "aspnet-prerendering": "^3.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.2.1",
     "chart.js": "^2.7.3",
     "chartjs-plugin-zoom": "^0.6.6",
